@@ -6,7 +6,6 @@
   "scripts": {
     "build": "babel src --out-dir dist",
     "prepareOnly": "npm run build",
-    "postinstall": "npm run build",
     "test": "echo \"Error: no test specified. I will add it soon. \" && exit 1"
   },
   "repository": {
