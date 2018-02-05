@@ -5,7 +5,8 @@
   "main": "./dist/tags.js",
   "scripts": {
     "build": "babel src --out-dir dist",
-    "prepare": "npm run build",
+    "prepareOnly": "npm run build",
+    "postinstall": "npm run build",
     "test": "echo \"Error: no test specified. I will add it soon. \" && exit 1"
   },
   "repository": {
