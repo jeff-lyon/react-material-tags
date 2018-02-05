@@ -259,7 +259,7 @@ class Tags extends Component{
       <div>
         <div>
           <AutoComplete {...this.props.textField}
-          ref="textField"
+          ref={(textField) => this.textField=textField }
           disableFocusRipple={false}
           searchText={this.state.value}
           dataSourceConfig={{text:'label',value:'label'}}
